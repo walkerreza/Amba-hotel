@@ -12,7 +12,7 @@ Proyek ini adalah aplikasi manajemen hotel bernama **Hotel Amba**.
 - Node.js & npm/yarn terinstall
 - Git (opsional, untuk version control)
 
-### Menjalankan Backend (contoh umum)
+### Menjalankan Backend (contoh umum)ew
 
 1. Masuk ke folder proyek:
    ```bash
