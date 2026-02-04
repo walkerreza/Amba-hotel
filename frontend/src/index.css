@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Menghilangkan scrollbar untuk seluruh halaman */
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer dan Edge */
+}
+
+/* Menghilangkan scrollbar untuk Webkit (Chrome, Safari, dll) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Pastikan konten tetap bisa di-scroll meskipun scrollbar tidak terlihat */
+html, body {
+  overflow-y: auto;
+}
